@@ -1,23 +1,8 @@
 # SimpleSlider
 Simple responsive slider created in pure javascript.
-<br> Browsers support: All modern browsers, Internet Explorer 10+
+<br> Browsers support: All modern browsers
 
-## Version
-1.9.0
 
-## Installation
-
-###### npm
-Install the package & import files
-
-```
-npm install simpleslider-js
-```
-
-```javascript
-import SimpleSlider from 'simpleslider-js';
-import 'simpleslider-js/dist/simpleslider.min.css';
-```
 
 ###### CDN
 Include files using CDN.
@@ -26,10 +11,6 @@ Include files using CDN.
 https://unpkg.com/simpleslider-js@1.9.0/dist/simpleSlider.min.js
 https://unpkg.com/simpleslider-js@1.9.0/dist/simpleSlider.min.css
 ```
-
-###### Github
-You can also download files from Github and attach them manually to your project. <br>
-Note: On production use files (JS and CSS) only from **dist/** folder.
 
 ```html
 <link rel="stylesheet" href="css/simpleSlider.min.css"> 
@@ -76,7 +57,6 @@ See the section above.
 </script>
 ```
 
-## API
 
 ###### Example
 new SimpleSlider(container, options)
